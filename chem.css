@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: #b48f8f;
+}
+
+
+header {
+    text-align: center;
+    padding: 32px;
+    background-color: #41566a;
+    color: #f6f3f3;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(236, 236, 223, 0.652);
+    flex-wrap: wrap;
+
+}
+
+nav ul li {
+    margin: 8px 16px;
+}
+
+nav ul li a:hover {
+    color: #4d2020;
+    text-decoration: none;
+    font-weight: bold;
+    
+    font-size: 25px;
+}
+
+
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 32px;
+    padding: 16px;
+    background-color: #dceef8;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 30px;
+    color: #2c3e50;
+}
+
+section article h3 {
+    font-size: 24px;
+    color: #3498db;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: rgb(86, 14, 14);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+form button:hover {
+    background-color: rgb(113, 78, 64);
+}
+
+
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: rgb(56, 104, 126);
+    color: #d3a7a7;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+
+    section article h3 {
+        font-size: 1.2rem;
+    }
+
+    form input, form textarea, form button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul li {
+        margin: 0.5rem;
+    }
+
+    section h2 {
+        font-size: 1.4rem;
+    }
+
+    section article h3 {
+        font-size: 1.1rem;
+    }
+
+    form input, form textarea, form button {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+    
